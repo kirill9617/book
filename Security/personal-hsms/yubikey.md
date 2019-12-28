@@ -119,8 +119,8 @@ C:\> pip install --user yubioath-desktop
 ##### Arch
 
 ```
-pacman -S gpg yubikey-personalization pcsc-tools pcsclite libusb-compat \
- libu2f-host swig gcc python2-pyside python2-click yubioauth-desktop
+pacman -S gnupg yubikey-personalization pcsc-tools pcsclite libusb-compat \
+  libu2f-host swig gcc python2-click pyside2 yubioath-desktop
 ```
 
 ##### Debian
